@@ -50,4 +50,175 @@
     background-size: 100%;
 }
 
+#bannerimagehome {
+    width: 100%;
+    background-image: url("../pictures/mainhall1.jpg");
+    height: 80vh;
+    background-color: rgb(1,1,1,.7);
+    background-position: center;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+#rectanglehome {
+    position: relative;
+    width: 80%;
+    height: 20vh;
+    top: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(163, 31, 52, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5vh;
+    line-height: 3vh;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #FFFFFF;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+#simplebanner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F1F1F1;
+    border-radius: 5px;
+}
+
+.maintext {
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.subtext {
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.redtext {
+    color: #A31F34;
+    font-size: 30;
+}
+
+h3 .btn-group { display: inline-block; }
+
+.effect1 {
+    color: #A31F34;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    /* font-size: 24px; */
+    position: relative;
+    padding: 10px 50px 10px 20px;
+  
+    -webkit-transition: all 0.3s;
+  
+    -o-transition: all 0.3s;
+  
+    transition: all 0.3s;
+  
+    -webkit-transform: scale(3);
+  
+        -ms-transform: scale(3);
+  
+            transform: scale(3); /*change scale(3) to scale(1)*/
+  }
+  
+  .effect1 .bg {
+    background: #A31F34;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -1px;
+    z-index: -1;
+  
+    -webkit-transition: all 0.3s;
+  
+    -o-transition: all 0.3s;
+  
+    transition: all 0.3s;
+  }
+  
+  .effect1:hover {
+    padding-right: 20px;
+    color: #fff;
+  }
+  
+  .effect1:hover .bg {
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  
+  .effect1 .bg:before, .effect1 .bg:after {
+    content: '';
+    height: 2px;
+    width: 10px;
+    background: #A31F34;
+    position: absolute;
+    right: -2px;      
+    -webkit-transition: all 0.3s;      
+    -o-transition: all 0.3s;      
+    transition: all 0.3s;
+  }
+  
+  .effect1 .bg:before {
+    bottom: 3px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .effect1 .bg:after{
+    top: 3px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  .effect1:hover .bg:before,
+  .effect1:hover .bg:after{
+    right: 0;
+  }
+  
+  .effect1:hover .bg:before{
+    bottom: 6px;
+  }
+  
+  .effect1:hover .bg:after{
+    top: 6px;
+  }
