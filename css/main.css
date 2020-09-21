@@ -1,0 +1,53 @@
+
+.navbar-custom {
+    background-color: #A31F34;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #FFFFFF !important;
+    font-size: 25px !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #CCCCCC !important;
+    padding: 1rem 1rem !important;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff !important;
+    /* background-color: #ee4400; /* add background-color to active links */
+    /* text-decoration: underline */
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #A31F34;
+    color: white;
+    text-align: center;
+}
+
+.inline-img {
+  display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#bannerimagetemplate {
+    width: 100%;
+    background-image: url("../pictures/stage1.jpg");
+    height: 300px;
+    background-color: rgb(1,1,1,.7);
+    background-position: center;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    background-size: 100%;
+}
+
+
