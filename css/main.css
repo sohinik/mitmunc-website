@@ -1,3 +1,22 @@
+@font-face {
+    font-family: Garamond;
+    src: url(../Garamond/static/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: Garamond-Italic;
+    src: url(../Garamond/static/EBGaramond-Italic.ttf);
+}
+
+@font-face {
+    font-family: Garamond-Bold;
+    src: url(../Garamond/static/EBGaramond-Bold.ttf);
+}
+
+body {
+    font-family: Garamond;
+    min-width: 900px;
+}
 
 .navbar-custom {
     background-color: #A31F34;
@@ -7,16 +26,19 @@
 .navbar-custom .navbar-text {
     color: #FFFFFF !important;
     font-size: 25px !important;
+    font-family: Garamond;
 }
 
 .navbar-custom .navbar-nav .nav-link {
     color: #CCCCCC !important;
     padding: 1rem 1rem !important;
+    font-family: Garamond;
 }
 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff !important;
+    font-family: Garamond;
     /* background-color: #ee4400; /* add background-color to active links */
     /* text-decoration: underline */
 }
@@ -31,6 +53,7 @@
     background-color: #A31F34;
     color: white;
     text-align: center;
+    font-family: Garamond;
 }
 
 .inline-img {
@@ -118,18 +141,33 @@
 
 .maintext {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 8vh;
+    font-family: Garamond;
 }
 
 .subtext {
     color: #FFFFFF;
     font-style: italic;
-    font-size: 30px;
+    font-size: 4vh;
+    font-family: Garamond;
 }
 
 .redtext {
     color: #A31F34;
-    font-size: 30;
+    font-size: 4vh;
+    font-family: Garamond;
+}
+
+.maintextred {
+    color: #A31F34;
+    font-size: 8vh;
+    font-family: Garamond;
+}
+
+.paragraphtext {
+    color: #000;
+    font-size: 3vh;
+    font-family: Garamond;
 }
 
 h3 .btn-group { display: inline-block; }
@@ -222,3 +260,56 @@ h3 .btn-group { display: inline-block; }
   .effect1:hover .bg:after{
     top: 6px;
   }
+
+.container {
+    width: 80%;
+	height:auto;
+    padding:1%;
+    overflow:hidden;
+}
+
+.peoplecontainer {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pe {
+	float: left;
+	width: calc(100% / 3);
+	overflow: hidden;
+}
+
+.pe img {
+	width:200px;
+	height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.p-name {
+    font-family: Garamond-Bold;
+}
+
+.p-des {
+    font-family: Garamond-Italic;
+	color: #A31F34;
+}
+
+
+@media screen and (max-width: 960px) {
+	.pe{
+		width: 45%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.pe{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.pe{
+		width: 100%;
+	}
+}
