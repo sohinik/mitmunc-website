@@ -373,10 +373,15 @@ h3 .btn-group { display: inline-block; }
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
     overflow: hidden;
     width: 80%;
     margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background: #efefef;
+    box-shadow: 5px 5px 10px #959595, 
+                -5px -5px 10px #ffffff;
   }
 
 
