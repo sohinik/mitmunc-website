@@ -105,6 +105,37 @@ body {
     color: #FFFFFF;
 }
 
+.hvr-underline-from-left2 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 4px;
+    background: #A31F34;
+    height: 6px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left2:hover:before, .hvr-underline-from-left2:focus:before, .hvr-underline-from-left2:active:before {
+    right: 0;
+}
+
 .hvr-underline-from-left {
     display: inline-block;
     vertical-align: middle;
@@ -317,4 +348,79 @@ h3 .btn-group { display: inline-block; }
 	.pe{
 		width: 100%;
 	}
+}
+
+
+
+.accordion {
+    background-color: #F1F1F1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 10%;
+  }
+  
+  .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+  
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #A31F34;
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #A31F34;
+}
+
+.styled-table tbody td:hover.active-row {
+    /* font-weight: bold; */
+    color: #A31F34;
+    cursor: pointer;
 }
