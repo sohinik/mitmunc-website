@@ -394,6 +394,7 @@ h3 .btn-group { display: inline-block; }
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: Garamond;
 }
 
 .styled-table thead tr {
@@ -401,6 +402,7 @@ h3 .btn-group { display: inline-block; }
     color: #ffffff;
     text-align: left;
     border-bottom: 1px solid #ccc;
+    font-family: Garamond-Bold;
 }
 
 .styled-table th,
