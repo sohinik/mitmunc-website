@@ -9,7 +9,6 @@ This repository hosts http://www.mitmunc.org/, the website of the MIT Model Unit
 
 ## First-time Setup
 1. Clone this repository.
-    * If you have another version installed or don't want to mess with your system, use [Ruby Version Manager (RVM)](https://rvm.io/).
 2. Ready to go!
 
 ## Development
