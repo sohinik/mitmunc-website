@@ -437,3 +437,92 @@ h3 .btn-group { display: inline-block; }
     color: #A31F34;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+.container2 {
+  position: relative;
+  height: 400px;
+  width: 1100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  left: calc(50% - 550px);
+  display: flex;
+  font-family: Garamond;
+}
+
+.card {
+  display: flex;
+  height: 380px;
+  width: 500px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.2);
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: black;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+.bar {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0,154,217);
+  background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(163,21,52,1) 65%, rgba(163,21,52,1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
