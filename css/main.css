@@ -168,10 +168,18 @@ body {
 }
 
 #simplebanner {
-    width: 100%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     background: #F1F1F1;
+    border-radius: 5px;
+}
+
+#whitebanner{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: #F1F1F1; */
     border-radius: 5px;
 }
 
@@ -201,15 +209,17 @@ body {
 }
 
 .paragraphtext {
-    color: #000;
+    color: #4d4d4d;
     font-size: 2.5vh;
     font-family: Garamond;
+
 }
 
 .paragraphtextemph {
     color: #A31F34;
     font-size: 2.5vh;
     font-family: Garamond-Bold;
+
 }
 
 h3 .btn-group { display: inline-block; }
