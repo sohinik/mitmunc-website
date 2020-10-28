@@ -196,6 +196,12 @@ body {
     font-family: Garamond;
 }
 
+.topictext {
+  color: #000;
+  font-size: 12px;
+  font-family: Garamond;
+}
+
 .redtext {
     color: #A31F34;
     font-size: 4vh;
