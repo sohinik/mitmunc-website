@@ -74,7 +74,7 @@ body {
     background-size: 100%;
     color: #FFF;
     text-align: center;
-    font-size: 8vh;
+    font-size: 64px;
     font-family: Garamond-Bold;
 }
 
@@ -205,7 +205,7 @@ body {
 
 .redtext {
     color: #A31F34;
-    font-size: 4vh;
+    font-size: 32px;
     font-family: Garamond;
 }
 
@@ -341,8 +341,8 @@ h3 .btn-group { display: inline-block; }
 }
 
 .pe img {
-	width:200px;
-	height: 200px;
+	width: 25vh;
+	height: 25vh;
     border-radius: 50%;
     object-fit: cover;
 }
