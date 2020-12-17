@@ -469,7 +469,7 @@ h3 .btn-group { display: inline-block; }
 
 .card {
   display: flex;
-  height: 380px;
+  height: 320px;
   width: 500px;
   background-color: #17141d;
   border-radius: 10px;
@@ -508,7 +508,7 @@ h3 .btn-group { display: inline-block; }
   top: 80px;
   left: 20px;
   height: 5px;
-  width: 150px;
+  width: 70%;
 }
 
 .emptybar {
@@ -528,9 +528,38 @@ h3 .btn-group { display: inline-block; }
   transition: 0.6s ease-out;
 }
 
+.bgbutton {
+  position: absolute;
+  bottom: 0px;
+  height: 70px;
+  width: 50%;
+  border: 4px solid rgba(46, 48, 51, .05);
+  color: #2e3033;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px; 
+  border-radius: 1px;
+  opacity: 0;
+}
+
+.sbbutton {
+  position: absolute;
+  bottom: 0px;
+  height: 70px;
+  width: 50%;
+  margin-left: 50%;
+  border: 4px solid rgba(46, 48, 51, .05);
+  color: #2e3033;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px; 
+  border-radius: 1px;
+  opacity: 0;
+}
+
 .card:hover .filledbar {
-  width: 120px;
-  transition: 0.4s ease-out;
+  width: 100%;
+  transition: 0.6s ease-out;
 }
 
 
@@ -541,6 +570,20 @@ h3 .btn-group { display: inline-block; }
 
 .card:hover .title {
   color: #A31F34; 
+}
+
+.card:hover .sbbutton {
+  border: 4px solid #A31F34; 
+  transition: 0.6s;
+  color: #A31F34; 
+  opacity: 1;
+}
+
+.card:hover .bgbutton {
+  border: 4px solid #A31F34; 
+  transition: 0.6s;
+  color: #A31F34; 
+  opacity: 1;
 }
 
 .ppbutton {
