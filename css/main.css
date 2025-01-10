@@ -92,6 +92,14 @@ body {
     align-items: center;
 }
 
+.blue-text {
+  color: #007BFF; /* Bootstrap blue color */
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
 #rectanglehome {
     width: 80%;
     margin-left: auto;
