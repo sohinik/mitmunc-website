@@ -1,255 +1,331 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>MIT Model United Nations Conference</title> <!--#YEAR-->
+  <title>MIT Model United Nations Conference</title> <!--#YEAR-->
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
     <a class="navbar-brand" style="display: flex;align-items: center;" href="index.html">
-        <img alt="Brand" class="pull-left" src="pictures/logo.png" style="height: 10vh; width: 10vh;">
-      </a>
-  <a class="navbar-brand" href="index.html">MITMUNC XVIII</a> <!--#YEAR-->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link hvr-underline-from-left" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link hvr-underline-from-left" href="about.html">About Us</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link hvr-underline-from-left" href="conference.html">Conference Information <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link hvr-underline-from-left" href="bgandpp.html">Background Guides and Position Papers</a>
-      </li>
-      <!-- <li class="nav-item">
+      <img alt="Brand" class="pull-left" src="pictures/logo.png" style="height: 10vh; width: 10vh;">
+    </a>
+    <a class="navbar-brand" href="index.html">MITMUNC XIX</a> <!--#YEAR-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link hvr-underline-from-left" href="conference.html">Conference Information <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="bgandpp.html">Background Guides and Position Papers</a>
+        </li> -->
+        <!-- <li class="nav-item">
         <a class="nav-link hvr-underline-from-left" href="registration.html">Registration</a>
       </li>
       <li class="nav-item">
         <a class="nav-link hvr-underline-from-left" href="payments.html">Payments</a>
       </li> -->
-      <!--
+        <!--
       <li class="nav-item">
         <a class="nav-link hvr-underline-from-left" href="archived.html">Archived</a>
       </li> -->
-      <!-- <li class="nav-item">
+        <!-- <li class="nav-item">
         <a class="nav-link hvr-underline-from-left" href="china.html">MITMUNC China</a>
       </li> -->
-      <li class="nav-item">
-        <a class="nav-link hvr-underline-from-left" href="locations.html">Logistics and Locations</a>
-      </li>
-      <!-- <li class="nav-item">
+        <!-- <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="locations.html">Logistics and Locations</a>
+        </li> -->
+        <!-- <li class="nav-item">
         <a class="nav-link hvr-underline-from-left" href="merch.html">Merch</a>
     </li> -->
-    </ul>
-    <span class="navbar-text">
-        </span>
-  </div>
-</nav>
-
-<div id="bannerimagetemplate" style="background-image: url(./pictures/committee.jpg);">MITMUNC XVIII Information</div>
-
-  <h4 class="redtext" style="text-align:center; line-height: 12vh; font-family:Garamond"> MITMUNC XVIII will be held in-person at the Massachusetts Institute of Technology. Welcome!</h4>
-<div id="whitebanner" style="height: auto;">
-  <h3 class="redtext" style="text-align: center; font-family: Garamond-Bold;">Key Dates</h3>
-  <h3 class="paragraphtextemph" style="display:inline-block;">October 1, 2025: &nbsp;</h3><h3 class="paragraphtext" style="display:inline-block;"> Registration opens.</h3>
-  <br>
-  <h3 class="paragraphtextemph" style="display:inline-block;">November 26, 2025: &nbsp;</h3><h3 class="paragraphtext" style="display:inline-block;"> Registration closes. Waitlist application opens.</h3>
-  <br>
-  <h3 class="paragraphtextemph" style="display:inline-block;">January 15, 2026: &nbsp;</h3><h3 class="paragraphtext" style="display:inline-block;"> Waitlist application closes.</h3>
-  <br>
-  <h3 class="paragraphtextemph" style="display:inline-block;">February 5, 2026: &nbsp;</h3><h3 class="paragraphtext" style="display:inline-block;"> Position Papers due from delegates.</h3>
-  <br>
-  <h3 class="paragraphtextemph" style="display:inline-block;">February 6-8, 2026: &nbsp;</h3><h3 class="paragraphtext" style="display:inline-block;"> MITMUNC XVIII!</h3>
-  <br><br>
-</div>
-
-<div id="simplebanner" style="height: auto;">
-  <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Rules of Procedure & Position Paper Guidelines</h3>
-  <p>
-  <br>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">MITMUNC 2026 Rules of Procedure can be found <a href="pdfs/ROP_MITMUNCXVIII_2026.pdf">here</a></h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">MITMUNC 2026 Position Paper Guidelines can be found <a href="pdfs/MITMUNCXVIII_2026_PPGuidelines.pdf">here</a></h3>
-  <br><br>
-</div>
-
-<div id="whitebanner" style="height: auto;">
-  <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Conference Fees</h3>
-  <p>
-  <div class="row" style="width: 70%; margin: 0 auto;">
-    <div class="column" style=" margin: 0 auto;">
-      <h3 class="paragraphtext">$75 USD per individual delegate</h3>
+      </ul>
+      <span class="navbar-text">
+      </span>
     </div>
+  </nav>
+
+  <div id="bannerimagetemplate" style="background-image: url(./pictures/committee.jpg);">MITMUNC XIX Information</div>
+
+  <h4 class="redtext" style="text-align:center; line-height: 12vh; font-family:Garamond"> MITMUNC XIX will be held
+    in-person at the Massachusetts Institute of Technology. Welcome!</h4>
+  <div id="whitebanner" style="height: auto;">
+    <h3 class="redtext" style="text-align: center; font-family: Garamond-Bold;">Key Dates- Subject to be changed</h3>
+    <h3 class="paragraphtextemph" style="display:inline-block;">October 1, 2025: &nbsp;</h3>
+    <h3 class="paragraphtext" style="display:inline-block;"> Registration opens.</h3>
+    <br>
+    <h3 class="paragraphtextemph" style="display:inline-block;">November 26, 2025: &nbsp;</h3>
+    <h3 class="paragraphtext" style="display:inline-block;"> Registration closes. Waitlist application opens.</h3>
+    <br>
+    <h3 class="paragraphtextemph" style="display:inline-block;">January 15, 2026: &nbsp;</h3>
+    <h3 class="paragraphtext" style="display:inline-block;"> Waitlist application closes.</h3>
+    <br>
+    <h3 class="paragraphtextemph" style="display:inline-block;">February 5, 2026: &nbsp;</h3>
+    <h3 class="paragraphtext" style="display:inline-block;"> Position Papers due from delegates.</h3>
+    <br>
+    <h3 class="paragraphtextemph" style="display:inline-block;">February 5-7, 2026: &nbsp;</h3>
+    <h3 class="paragraphtext" style="display:inline-block;"> MITMUNC XIX!</h3>
+    <br><br>
   </div>
 
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Fees Include</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    The fees above include conference materials (folder, notepad, pen, drawstring bag) for each delegate.
-    <br>
-  </h3>
-
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Payment Process</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    As part of registration, after filling out the registration form, please pay a one-time fee of $75 per delegate. Once payment has been received, the designated school advisor will receive a final notice of registration confirmation.
+  <div id="simplebanner" style="height: auto;">
+    <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Rules of Procedure &
+      Position Paper Guidelines</h3>
+    <p>
+      <br>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">MITMUNC 2026 Rules of Procedure can be found <a
+        href="pdfs/ROP_MITMUNCXVIII_2026.pdf">here</a></h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">MITMUNC 2026 Position Paper Guidelines can be found <a
+        href="pdfs/MITMUNCXVIII_2026_PPGuidelines.pdf">here</a></h3>
     <br><br>
-    Payment must be received upon specified conference deadlines to secure your delegation's spots in MITMUNC. 
+  </div>
+
+  <div id="whitebanner" style="height: auto;">
+    <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Conference Fees</h3>
+    <p>
+    <div class="row" style="width: 70%; margin: 0 auto;">
+      <div class="column" style=" margin: 0 auto;">
+        <h3 class="paragraphtext">$75 USD per individual delegate</h3>
+      </div>
+    </div>
+
+    <br>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Fees Include</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      The fees above include conference materials (folder, notepad, pen, drawstring bag) for each delegate.
+      <br>
+    </h3>
+
+    <br>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Payment Process</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      As part of registration, after filling out the registration form, please pay a one-time fee of $75 per delegate.
+      Once payment has been received, the designated school advisor will receive a final notice of registration
+      confirmation.
+      <br><br>
+      Payment must be received upon specified conference deadlines to secure your delegation's spots in MITMUNC.
+      <br><br>
+      Refunds cannot be processed after payment unless conference is cancelled.
+      <br>
+    </h3>
+    <br>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: 0 auto;">Financial Aid</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: 0 auto;">
+      MITMUNC is committed to making the conference accessible to everyone, regardless of financial circumstances. If
+      payment of conference fees is a barrier to participation to MITMUNC, you may apply for financial aid to assist in
+      reduction of conference fees by filling in the financial aid section of the registration form. </h3>
+
     <br><br>
-    Refunds cannot be processed after payment unless conference is cancelled.
-    <br>
-  </h3>
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: 0 auto;">Financial Aid</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: 0 auto;">
-    MITMUNC is committed to making the conference accessible to everyone, regardless of financial circumstances. If payment of conference fees is a barrier to participation to MITMUNC, you may apply for financial aid to assist in reduction of conference fees by filling in the financial aid section of the registration form. </h3>
+  </div>
 
-  <br><br>
-</div>
+  <div id="simplebanner" style="height: auto;">
+    <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Conference Waiver</h3>
+    <p>
+      <br>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Parental Waiver</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      Parents are required to submit a waiver for their delegate(s).
+      <a href="pdfs/MITMUNC_2026_Liability_Release_Form.pdf">Link to Parental Waiver</a>
+      <br>
+    </h3>
+    <br><br>
+  </div>
 
-<div id="simplebanner" style="height: auto;">
-  <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Conference Waiver</h3>
-  <p>
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Parental Waiver</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    Parents are required to submit a waiver for their delegate(s).
-    <a href="pdfs/MITMUNC_2026_Liability_Release_Form.pdf">Link to Parental Waiver</a>
-    <br>
-  </h3>
-  <br><br>
-</div>
+  <div id="whitebanner" style="height:auto;">
+    <h3 class="redtext" style="text-align:center; line-height:12vh; font-family:Garamond-Bold;">
+      <!-- Conference Schedule – MITMUNC XIX! -->
+      Last Years (2026) Conference Schedule- XIX Conference expected to be similar
+    </h3>
 
-<div id="whitebanner" style="height:auto;">
-  <h3 class="redtext" style="text-align:center; line-height:12vh; font-family:Garamond-Bold;">
-    Conference Schedule – MITMUNC XVIII!
-  </h3>
+    <table class="styled-table" style="margin:auto; width:75%; border-collapse:collapse;">
+      <thead>
+        <tr>
+          <th style="background:#A31F34; color:#fff; padding:12px;">Time (EST, GMT-5)</th>
+          <th style="background:#A31F34; color:#fff; padding:12px;">Friday, February 6, 2026</th>
+          <th style="background:#A31F34; color:#fff; padding:12px;">Saturday, February 7, 2026</th>
+          <th style="background:#A31F34; color:#fff; padding:12px;">Sunday, February 8, 2026</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9:00 AM</td>
+          <td></td>
+          <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Committee Session II (9 AM – 12 PM)
+          </td>
+          <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Committee Session V (9 AM – 12 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>9:30 AM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10:00 AM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10:30 AM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11:30 AM</td>
+          <td></td>
+        </tr>
 
-  <table class="styled-table" style="margin:auto; width:75%; border-collapse:collapse;">
-    <thead>
-      <tr>
-        <th style="background:#A31F34; color:#fff; padding:12px;">Time (EST, GMT-5)</th>
-        <th style="background:#A31F34; color:#fff; padding:12px;">Friday, February 6, 2026</th>
-        <th style="background:#A31F34; color:#fff; padding:12px;">Saturday, February 7, 2026</th>
-        <th style="background:#A31F34; color:#fff; padding:12px;">Sunday, February 8, 2026</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>9:00 AM</td>
-        <td></td>
-        <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Committee Session II (9 AM – 12 PM)
-        </td>
-        <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Committee Session V (9 AM – 12 PM)
-        </td>
-      </tr>
-      <tr><td>9:30 AM</td><td></td></tr>
-      <tr><td>10:00 AM</td><td></td></tr>
-      <tr><td>10:30 AM</td><td></td></tr>
-      <tr><td>11:00 AM</td><td></td></tr>
-      <tr><td>11:30 AM</td><td></td></tr>
+        <tr>
+          <td>12:00 PM</td>
+          <td></td>
+          <td rowspan="4" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Lunch Break (12 – 2 PM)
+          </td>
+          <td rowspan="4" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Lunch Break (12 – 2 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>12:30 PM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1:30 PM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td></td>
+          <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Committee Session III (2 – 5 PM)
+          </td>
+          <td rowspan="3" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Closing Ceremony (2 – 3:30 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>2:30 PM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td rowspan="4" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Delegation Check-In (3 – 5 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>3:30 PM</td>
+        </tr>
+        <tr>
+          <td>4:00 PM</td>
+        </tr>
+        <tr>
+          <td>4:30 PM</td>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td rowspan="2" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Opening Ceremony (5:15 – 6 PM)
+          </td>
+          <td rowspan="3" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Dinner Break (5 – 6:30 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>5:30 PM</td>
+        </tr>
+        <tr>
+          <td>6:00 PM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6:30 PM</td>
+          <td></td>
+          <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Committee Session IV (6:30 – 9:30 PM)<br>
+            Advisor Meeting (8 – 9 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>7:00 PM</td>
+        </tr>
+        <tr>
+          <td>7:30 PM</td>
+          <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Committee Session I (7:30 – 10:30 PM)
+          </td>
+        </tr>
+        <tr>
+          <td>8:00 PM</td>
+        </tr>
+        <tr>
+          <td>8:30 PM</td>
+        </tr>
+        <tr>
+          <td>9:00 PM</td>
+        </tr>
+        <tr>
+          <td>9:30 PM</td>
+        </tr>
 
-      <tr>
-        <td>12:00 PM</td>
-        <td></td>
-        <td rowspan="4" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Lunch Break (12 – 2 PM)
-        </td>
-        <td rowspan="4" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Lunch Break (12 – 2 PM)
-        </td>
-      </tr>
-      <tr><td>12:30 PM</td><td></td></tr>
-      <tr><td>1:00 PM</td><td></td></tr>
-      <tr><td>1:30 PM</td><td></td></tr>
-      <tr>
-        <td>2:00 PM</td>
-        <td></td>
-        <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Committee Session III (2 – 5 PM)
-        </td>
-        <td rowspan="3" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Closing Ceremony (2 – 3:30 PM)
-        </td>
-      </tr>
-      <tr><td>2:30 PM</td><td></td></tr>
-      <tr>
-        <td>3:00 PM</td>
-        <td rowspan="4" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Delegation Check-In (3 – 5 PM)
-        </td>
-      </tr>
-      <tr><td>3:30 PM</td></tr>
-      <tr><td>4:00 PM</td></tr>
-      <tr><td>4:30 PM</td></tr>
-      <tr>
-        <td>5:00 PM</td>
-        <td rowspan="2" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Opening Ceremony (5:15 – 6 PM)
-        </td>
-        <td rowspan="3" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Dinner Break (5 – 6:30 PM)
-        </td>
-      </tr>
-      <tr><td>5:30 PM</td></tr>
-      <tr><td>6:00 PM</td><td></td></tr>
-      <tr>
-        <td>6:30 PM</td>
-        <td></td>
-        <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Committee Session IV (6:30 – 9:30 PM)<br>
-          Advisor Meeting (8 – 9 PM)
-        </td>
-      </tr>
-      <tr><td>7:00 PM</td></tr>
-      <tr>
-        <td>7:30 PM</td>
-        <td rowspan="6" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Committee Session I (7:30 – 10:30 PM)
-        </td>
-      </tr>
-      <tr><td>8:00 PM</td></tr>
-      <tr><td>8:30 PM</td></tr>
-      <tr><td>9:00 PM</td></tr>
-      <tr><td>9:30 PM</td></tr>
-
-      <!-- Late -->
-      <tr>
-        <td>10:00 PM</td>
-        <td rowspan="2" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
-          Delegate Event (10 – 11 PM)
-        </td>
-        <td></td>
-      </tr>
-      <tr><td>10:30 PM</td><td></td></tr>
-    </tbody>
-  </table>
-</div>
+        <!-- Late -->
+        <tr>
+          <td>10:00 PM</td>
+          <td rowspan="2" style="background:#A31F34; color:#fff; text-align:center; vertical-align:middle;">
+            Delegate Event (10 – 11 PM)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10:30 PM</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
 
 
 
-<!-- <br>
+  <!-- <br>
 <div id="white-space" style="height: auto;">
   <h3 class="redtext" style="text-align: center; line-height: 12vh; font-family: Garamond-Bold;">Committee Room Assignments</h3>
   <table class="styled-table" style="margin: auto; width:70%">
@@ -314,155 +390,203 @@
 </div> -->
 
 
-<div id="simplebanner" style="height: auto;">
-  <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Hotel Reservations</h3>
-  <!-- <h3 class="paragraphtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">More info coming soon!</h3> -->
-  <p>
+  <div id="simplebanner" style="height: auto;">
+    <h3 class="redtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">Hotel Reservations
+    </h3>
+    <!-- <h3 class="paragraphtext" style="text-align: center; line-height: 5vh; font-family: Garamond-Bold;">More info coming soon!</h3> -->
+    <p>
 
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Booking Information</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    MIT Model UN is not responsible for reservation of hotel rooms for the conference. Delegates may either commute or book hotel rooms nearby MIT. We currently have partnerships with the Marriott in Kendall Square, within walking distance of our conference: Boston Marriott Cambridge at 50 Broadway, Cambridge, MA  02142. You can book <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1759502979466&key=GRP&app=resvlink">here</a>.
-    <br>
-  </h3>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">Booking Information</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      MIT Model UN is not responsible for reservation of hotel rooms for the conference. Delegates may either commute or
+      book hotel rooms nearby MIT. We currently have partnerships with the Marriott in Kendall Square, within walking
+      distance of our conference: Boston Marriott Cambridge at 50 Broadway, Cambridge, MA 02142. You can book <a
+        href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1759502979466&key=GRP&app=resvlink">here</a>.
+      <br>
+    </h3>
 
-  <!-- <br>
+    <!-- <br>
   <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How can delegates reserve rooms with these hotels?</h3>
   <h3 class="paragraphtext" style="width: 70%; margin: auto;">
     Please reserve your hotel using the link below! We have partnered with Marriott for the upcoming 2026 conference.
-    <br><br> 
-    Boston Marriott Cambridge (1-800-228-9290) at the following <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1732029229138&key=GRP&guestreslink2=true"> link</a>. 
+    <br><br>
+    Boston Marriott Cambridge (1-800-228-9290) at the following <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1732029229138&key=GRP&guestreslink2=true"> link</a>.
     <br>
   </h3> -->
 
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How much will rooms cost?</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    Through our subsidized rates, rooms at the Boston Marriott will be around $174 per night. 
     <br>
-  </h3>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How much will rooms cost?</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      Through our subsidized rates, rooms at the Boston Marriott will be around $174 per night.
+      <br>
+    </h3>
 
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How many nights are these rooms available for?</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    Our block with the hotels is valid through 2 nights over the weekend of the conference. Check-in is arranged for Friday, February 6th while check-out will be on Sunday, February 8th. If you are planning to arrive before the 6th or stay beyond the 8th, please know that the subsidized rates that apply for these two nights may not apply for other nights. Please let the hotels know in advance, and they will do their best to accommodate the same rates for those additional night(s).
     <br>
-  </h3>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How many nights are these rooms available for?</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      Our block with the hotels is valid through 2 nights over the weekend of the conference. Check-in is arranged for
+      Friday, February 6th while check-out will be on Sunday, February 8th. If you are planning to arrive before the 6th
+      or stay beyond the 8th, please know that the subsidized rates that apply for these two nights may not apply for
+      other nights. Please let the hotels know in advance, and they will do their best to accommodate the same rates for
+      those additional night(s).
+      <br>
+    </h3>
 
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">What types of rooms are available in the block?</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    There are a mix of rooms available (1 king bed, 2 double beds, 1 king + 1 sofa, etc.). Please ensure that your delegates are comfortable with their particular housing arrangements. Due to the large number of double rooms requested for MUN delegations, we cannot guarantee double rooms for every school. Rooms will be allocated appropriately on a first-come, first-serve basis, so please book as soon as possible!
     <br>
-  </h3>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">What types of rooms are available in the block?</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      There are a mix of rooms available (1 king bed, 2 double beds, 1 king + 1 sofa, etc.). Please ensure that your
+      delegates are comfortable with their particular housing arrangements. Due to the large number of double rooms
+      requested for MUN delegations, we cannot guarantee double rooms for every school. Rooms will be allocated
+      appropriately on a first-come, first-serve basis, so please book as soon as possible!
+      <br>
+    </h3>
 
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">What is the deadline to reserve hotel rooms?</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    Reserving through the MITMUNC XVIII Room Block will be available until January 10th 2026. After that, any unused rooms in our Block will be released back to the hotel for general sale and any delegations will be subject to paying normal nightly rates rather than the subsidized rates of our block.
     <br>
-  </h3>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">What is the deadline to reserve hotel rooms?</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      Reserving through the MITMUNC XVIII Room Block will be available until January 10th 2026. After that, any unused
+      rooms in our Block will be released back to the hotel for general sale and any delegations will be subject to
+      paying normal nightly rates rather than the subsidized rates of our block.
+      <br>
+    </h3>
 
-  <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">What amenities do these hotels offer?</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    Both hotels offer free Wifi, laundry spaces, fitness centers, and daily housekeeping. Reserving with the Residence Inn also includes continental breakfast, whereas the Boston Marriott does not offer breakfast. For all delegations traveling by car, parking is an extra fee at both hotels ($55 at the Boston Marriott).
     <br>
-  </h3>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">What amenities do these hotels offer?</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      Both hotels offer free Wifi, laundry spaces, fitness centers, and daily housekeeping. Reserving with the Residence
+      Inn also includes continental breakfast, whereas the Boston Marriott does not offer breakfast. For all delegations
+      traveling by car, parking is an extra fee at both hotels ($55 at the Boston Marriott).
+      <br>
+    </h3>
+
+    <br>
+    <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How far are the hotels from Building E51 (location
+      of committee sessions)?</h3>
+    <h3 class="paragraphtext" style="width: 70%; margin: auto;">
+      Both hotels and the committee session location are both shown below for reference. The walking distance is around
+      5 minutes for the Boston Marriott.
+      <br><br>
+  </div>
 
   <br>
-  <h3 class="paragraphtextemph" style="width: 70%; margin: auto;">How far are the hotels from Building E51 (location of committee sessions)?</h3>
-  <h3 class="paragraphtext" style="width: 70%; margin: auto;">
-    Both hotels and the committee session location are both shown below for reference. The walking distance is around 5 minutes for the Boston Marriott.
-  <br><br>
-</div>
-
-<br>
 
 
-<div id="whitebanner" style="height: auto;">
-  <h3 class="redtext" style="text-align: center; line-height: 12vh; font-family: Garamond-Bold;">Frequently Asked Questions</h3>
+  <div id="whitebanner" style="height: auto;">
+    <h3 class="redtext" style="text-align: center; line-height: 12vh; font-family: Garamond-Bold;">Frequently Asked
+      Questions</h3>
 
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">What is MIT Model United Nations Conference (MITMUNC)?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>The MIT Model United Nations Conference is the premier international Model UN conference for high school students with a special focus on small committee sizes.</h3>
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">What is MIT Model United Nations Conference (MITMUNC)?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>The MIT Model United Nations Conference is the premier international Model UN
+        conference for high school students with a special focus on small committee sizes.</h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Why MITMUNC?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>Unlike other conferences, in which many students encounter little to no leeway for
+        participation inside massive general sessions, MITMUNC leverages committee sizes in such a way that gives
+        students the most opportunity for personal contribution and distinction.</h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">How do I sign up to compete in MITMUNC?</h3>
+    </button>
+    <div class="panel">
+      <!-- <h3 class="paragraphtext"><br>In order to ensure participation in MITMUNC, faculty advisors and delegates must pay special attention to our conference deadlines as well as apply early and properly. Please visit the <a href="registration.html">Registration</a> page to register.</h3> -->
+      <h3 class="paragraphtext"><br>Registration for MITMUNC XIX will open in October </h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Who is allowed to participate in MITMUNC? How many delegates are
+        allowed per school?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>MITMUNC is only open to high school students in all nations across the world and not
+        to those currently enrolled in a full-time college or university. Please note that each school may register a
+        maximum of 40 delegates.</h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Can I register for the virtual committee?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>MITMUNC XVIII will have no virtual committees.</h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Can I compete as a single delegate?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>
+        You may compete as a single delegate. An advisor is not needed for the conference. However, we recommend
+        students contact their school's Model United Nations club to foster interest in attending MITMUNC as the
+        school's delegation rather as an individual delegate. </h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Is there financial aid available to offset conference costs?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>
+        MITMUNC is committed to making the conference accessible to people of all backgrounds and circumstances. A
+        significant portion of our delegates receive aid every year in the form of registration discounts. If payment of
+        conference fees is a barrier to participation to MITMUNC, you may apply for financial aid to assist in reduction
+        of conference fees by filling in the financial aid section of the registration form.</h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">What is the technology policy?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>
+        No technology is allowed inside the committee room unless approved by us.</h3>
+    </div>
+
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Can I compete as a double delegation?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>
+        We only allow single delegate - one person competes per delegate.</h3>
+    </div>
+    <button class="accordion hvr-underline-from-left2">
+      <h3 class="redtext" style="font-size: 3vh;">Who can I contact?</h3>
+    </button>
+    <div class="panel">
+      <h3 class="paragraphtext"><br>Contact us: <i class="fa fa-envelope"></i> <a
+          href="mailto:secretariat-mitmunc@mit.edu" style="color:#000;">secretariat-mitmunc@mit.edu, </a><i
+          class="fa fa-phone"></i> <a href="tel:601-564-8686" style="color:#000;">(601) 564-8MUN</a></h3>
+    </div>
+
   </div>
 
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">Why MITMUNC?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>Unlike other conferences, in which many students encounter little to no leeway for participation inside massive general sessions, MITMUNC leverages committee sizes in such a way that gives students the most opportunity for personal contribution and distinction.</h3>
+
+  <div class="footer">
+    <p>Contact us: <i class="fa fa-envelope"></i> <a href="mailto:secretariat-mitmunc@mit.edu"
+        style="color:#FFFFFF;">secretariat-mitmunc@mit.edu</a></p>
   </div>
 
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">How do I sign up to compete in MITMUNC?</h3></button>
-  <div class="panel">
-    <!-- <h3 class="paragraphtext"><br>In order to ensure participation in MITMUNC, faculty advisors and delegates must pay special attention to our conference deadlines as well as apply early and properly. Please visit the <a href="registration.html">Registration</a> page to register.</h3> -->
-     <h3 class="paragraphtext"><br>Registration for MITMUNC XVIII is now closed.</h3>
-  </div>
-
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">Who is allowed to participate in MITMUNC? How many delegates are allowed per school?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>MITMUNC is only open to high school students in all nations across the world and not to those currently enrolled in a full-time college or university. Please note that each school may register a maximum of 40 delegates.</h3>
-  </div>
-
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">Can I register for the virtual committee?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>MITMUNC XVIII will have no virtual committees.</h3>
-  </div>
-
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">Can I compete as a single delegate?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>
-      You may compete as a single delegate. An advisor is not needed for the conference. However, we recommend students contact their school's Model United Nations club to foster interest in attending MITMUNC as the school's delegation rather as an individual delegate. </h3>
-  </div>
-
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">Is there financial aid available to offset conference costs?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>
-      MITMUNC is committed to making the conference accessible to people of all backgrounds and circumstances. A significant portion of our delegates receive aid every year in the form of registration discounts. If payment of conference fees is a barrier to participation to MITMUNC, you may apply for financial aid to assist in reduction of conference fees by filling in the financial aid section of the registration form.</h3>
-  </div>
-
-  <button class="accordion hvr-underline-from-left2">
-    <h3 class="redtext" style="font-size: 3vh;">What is the technology policy?</h3>
-  </button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>
-      No technology is allowed inside the committee room unless approved by us.</h3>
-  </div>
-
-  <button class="accordion hvr-underline-from-left2">
-    <h3 class="redtext" style="font-size: 3vh;">Can I compete as a double delegation?</h3>
-  </button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>
-      We only allow single delegate - one person competes per delegate.</h3>
-  </div>
-  <button class="accordion hvr-underline-from-left2"><h3 class="redtext" style="font-size: 3vh;">Who can I contact?</h3></button>
-  <div class="panel">
-    <h3 class="paragraphtext"><br>Contact us: <i class="fa fa-envelope"></i> <a href="mailto:secretariat-mitmunc@mit.edu" style="color:#000;">secretariat-mitmunc@mit.edu, </a><i class="fa fa-phone"></i>  <a href="tel:601-564-8686" style="color:#000;">(601) 564-8MUN</a></h3>
-  </div>
-
-</div>
 
 
-<div class="footer">
-  <p>Contact us: <i class="fa fa-envelope"></i> <a href="mailto:secretariat-mitmunc@mit.edu" style="color:#FFFFFF;">secretariat-mitmunc@mit.edu, </a><i class="fa fa-phone"></i>  <a href="tel:601-564-8686" style="color:#FFFFFF;">(601) 564-8MUN</a></p>
-</div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
     }
-  });
-}
-</script>
+  </script>
 </body>
